@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+
+html, body {
+  overflow-y: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #f5efe6;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+menu {
+  padding: 0;
+}
+
+button {
+  border: none;
+  box-shadow: none;
+}
+
+/* 
+* RESETTTTT 
+ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  /* display: none; */
+  /* width:0; */
+}
+
+
+@keyframes flickerMessage {
+    
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+      text-shadow:
+      rgb(255 168 41) 0px 0px 4px, rgb(255 168 41) 0px 0px 11px, rgb(255 168 41) 0px 0px 19px, rgb(153 94 15) 0px 0px 40px, rgb(153 94 15) 0px 0px 80px, rgb(153 94 15) 0px 0px 90px, rgb(153 94 15) 0px 0px 100px, rgb(153 94 15) 0px 0px 150px;
+  
+  }
+  
+  20%, 24%, 55% {        
+      text-shadow: none;
+  }    
+}
+
+@keyframes flickerUsername {
+    
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+      text-shadow:
+      var(--clr-username, #fff) 0px 0px 4px, var(--clr-username, #fff) 0px 0px 11px, var(--clr-username, #fff) 0px 0px 19px, rgb(153 94 15) 0px 0px 40px, rgb(153 94 15) 0px 0px 80px, rgb(153 94 15) 0px 0px 90px, rgb(153 94 15) 0px 0px 100px, rgb(153 94 15) 0px 0px 150px;
+  
+  }
+  
+  20%, 24%, 55% {        
+      text-shadow: none;
+  }    
+}
